@@ -1,0 +1,22 @@
+.main-container{
+    background-color: firebrick;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.main-container h1{
+    margin-left: 20px;
+}
+
+.main-container ul{
+    list-style: none;
+    display: flex;
+}
+
+.main-container ul li{
+    margin: 0 20px;
+    font-size: 20px;
+}

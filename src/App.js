@@ -5,11 +5,14 @@ import Home from './pages/Home';
 import Programacao from './pages/Programacao';
 import Unidades from './pages/Unidades';
 
+import Header from './components/Header'
+
 
 const Routes = () =>{
   return (
     <BrowserRouter>
       <Switch>
+        <Header />
         <Route path="/" exact={true} component={Home}/>
         <Route path="/contato" component={Contato}/>
         <Route path="/culinaria" component={Culinaria}/>

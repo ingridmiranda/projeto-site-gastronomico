@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;900&display=swap');
 
-.container-culinaria-main{
+.container-culinaria{
+    display: flex;
     font-family: 'Raleway', sans-serif;
     background-color: gainsboro;
     padding: 30px 90px;
 }
 
-.container-culinaria-main h1{
-    font-size: 36px;
-    padding: 20px 20%;
-    text-align: center;
-    margin-bottom: 20px;
+.container-culinaria img{
+    width: 35%;
+    padding-right: 30px;
+}
+
+.container-culinaria p{
+    font-size: 30px;
     font-weight: 900;
-    color: #9b2226;
+    color: #9b2226
 }

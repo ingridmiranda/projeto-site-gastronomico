@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
 .main-container{
     background-color: firebrick;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 90px;
+    height: 120px;
 }
 
 .main-container h1{
-    margin-left: 20px;
+    margin-left: 25px;
+    font-family: 'Parisienne', cursive;
+    font-size: 46px;
 }
 
 .main-container ul{
@@ -17,6 +21,11 @@
 }
 
 .main-container ul li{
-    margin: 0 20px;
+    margin: 0 25px;
     font-size: 20px;
+}
+
+.main-container ul li a{
+    text-decoration: none;
+    color: white;
 }

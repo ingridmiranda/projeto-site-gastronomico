@@ -11,14 +11,17 @@ import Header from './components/Header'
 const Routes = () =>{
   return (
     <BrowserRouter>
+
+    <Header />
+
       <Switch>
-        <Header />
         <Route path="/" exact={true} component={Home}/>
         <Route path="/contato" component={Contato}/>
         <Route path="/culinaria" component={Culinaria}/>
         <Route path="/programacao" component={Programacao}/>
         <Route path="/unidades" component={Unidades}/>
       </Switch>
+
     </BrowserRouter>
   )
 }

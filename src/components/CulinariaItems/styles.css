@@ -3,8 +3,8 @@
 .container-culinaria{
     display: flex;
     font-family: 'Raleway', sans-serif;
-    background-color: gainsboro;
-    padding: 30px 90px;
+    background-color: #FFE5D4;
+    padding: 50px 90px;
 }
 
 .container-culinaria img{
@@ -12,8 +12,16 @@
     padding-right: 30px;
 }
 
-.container-culinaria p{
-    font-size: 30px;
+.container-culinaria h2{
+    font-size: 24px;
     font-weight: 900;
-    color: #9b2226
+    color: #68A691;
+    letter-spacing: 5px;
+}
+.container-culinaria p{
+    padding-top: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #035E7B;
+    text-align: justify;
 }

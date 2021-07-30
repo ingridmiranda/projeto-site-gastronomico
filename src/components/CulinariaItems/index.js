@@ -1,12 +1,16 @@
 import './styles.css'
 
-const CulinariaItems = ({name="Culinária", imgName=""})=>{
+const CulinariaItems = ({title="Culinária", imgName="", text="Lorem Ipsum"})=>{
     return (
-        <div className="container-culinaria">
+      <main className="container-culinaria">
           <img src={imgName} alt="Culinária"/>
-          <p>{name}</p>
-        </div>
-    )
+          
+          <div>
+            <h2>{title}</h2>
+          <p>{text}</p>
+          </div>
+
+        </main>)
 }
 
 export default CulinariaItems;

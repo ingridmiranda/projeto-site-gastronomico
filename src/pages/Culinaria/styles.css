@@ -2,7 +2,7 @@
 
 .container-culinaria-main{
     font-family: 'Raleway', sans-serif;
-    background-color: gainsboro;
+    background-color: #FFE5D4;
     padding: 30px 90px;
 }
 
@@ -13,4 +13,8 @@
     margin-bottom: 20px;
     font-weight: 900;
     color: #9b2226;
+}
+
+.container-culinaria-main hr{
+    color: #68A691;
 }

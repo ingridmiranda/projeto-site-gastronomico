@@ -1,27 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;900&display=swap');
 
 .main-container{
-    background-color: firebrick;
+    background-color: #9b2226;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 120px;
+    height: 100px;
 }
 
 .main-container h1{
     margin-left: 25px;
     font-family: 'Parisienne', cursive;
-    font-size: 46px;
+    font-size: 40px;
 }
 
 .main-container ul{
     list-style: none;
     display: flex;
+    font-family: 'Raleway', sans-serif;
 }
 
 .main-container ul li{
-    margin: 0 25px;
+    margin: 0 20px;
     font-size: 20px;
 }
 

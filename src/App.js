@@ -4,6 +4,7 @@ import Culinaria from './pages/Culinaria';
 import Home from './pages/Home';
 import Programacao from './pages/Programacao';
 import Unidades from './pages/Unidades';
+import './styles.css'
 
 import Header from './components/Header'
 

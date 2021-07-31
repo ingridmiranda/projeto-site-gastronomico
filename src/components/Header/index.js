@@ -11,7 +11,6 @@ const Header = () =>{
                 <li><Link to='/'><a>Home</a></Link></li>
                 <li><Link to='/culinaria'>Culinária</Link></li>
                 <li><Link to='/programacao'>Programação</Link></li>
-                <li><Link to='/unidades'>Unidades</Link></li>
                 <li><Link to='/contato'>Contato e Reserva</Link></li>
             </ul>
         </main>

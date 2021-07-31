@@ -1,0 +1,29 @@
+.container-programacao{
+    padding: 10px 30px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-programacao img{
+    height: 300px;
+    padding-bottom: 30px;
+}
+
+.container-programacao h2{
+    font-size: 24px;
+    font-weight: 900;
+    color: #68A691;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.container-programacao p{
+    font-size: 26px;
+    font-weight: 700;
+    color: #035E7B;
+    padding: 10px 30px;
+}

@@ -3,7 +3,6 @@ import Contato from './pages/Contato';
 import Culinaria from './pages/Culinaria';
 import Home from './pages/Home';
 import Programacao from './pages/Programacao';
-import Unidades from './pages/Unidades';
 import './styles.css'
 
 import Header from './components/Header'
@@ -20,7 +19,6 @@ const Routes = () =>{
         <Route path="/contato" component={Contato}/>
         <Route path="/culinaria" component={Culinaria}/>
         <Route path="/programacao" component={Programacao}/>
-        <Route path="/unidades" component={Unidades}/>
       </Switch>
 
     </BrowserRouter>
